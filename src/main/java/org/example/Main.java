@@ -9,13 +9,9 @@ import org.example.dto.WeatherResponse;
 import retrofit2.Response;
 
 public class Main {
-    public Main() {
-    }
-
     public static void main(String[] args) throws IOException {
         System.out.println("Weather API Console Application!");
         Scanner scanner = new Scanner(System.in);
-
         while (true) {
             System.out.println();
             System.out.println("Enter your city (or ctl + c for exit): ");
